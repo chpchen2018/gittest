@@ -1,5 +1,7 @@
 package com.gittestp.mvpview;
 
+import android.util.Log;
+
 /**
  * Created by Administrator on 2017/3/22.
  */
@@ -10,10 +12,19 @@ public abstract class BasePresenter {
 
     public BasePresenter() {
 
+        Log.i(TAG, "BasePresenter: ");
     }
 
-    abstract void initPresenter();
+    protected void overrideTest() {
+        Log.i(TAG, "overrideTest: Parent");
+    }
+
+    protected abstract void initPresenter();
     private void  test() {
 
+        String str = "temple";
+        if (str != null) {
+            
+        }
     }
 }

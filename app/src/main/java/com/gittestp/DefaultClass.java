@@ -10,6 +10,9 @@ package com.gittestp;
 
     public DefaultClass() {
 
+        if (ourInstance == null) {
+            
+        }
     }
 
     public static DefaultClass getInstance() {

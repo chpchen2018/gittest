@@ -29,6 +29,9 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        FirstClass firstClass = new FirstClass();
+        firstClass.overrideTest();
     }
 
     @Override
