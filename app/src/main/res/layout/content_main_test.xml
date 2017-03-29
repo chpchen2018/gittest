@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:id="@+id/include_content_main"
+<LinearLayout android:id="@+id/include_content_main_test"
               xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
               android:layout_height="50dp"
               android:orientation="vertical">
 
     <TextView
-        android:id="@+id/content_main_txt"
+        android:id="@+id/content_main_txt_test"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="Hello World!"
+        android:text="Hello World!test"
         />
 
 </LinearLayout>
